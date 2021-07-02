@@ -208,3 +208,9 @@ function deleteButtons() {
 
 onLoadCartNumbers();
 displayCart();
+
+var delete_data = document.getElementById("delete_data");
+
+delete_data.onclick = function () {
+  localStorage.clear();
+};
